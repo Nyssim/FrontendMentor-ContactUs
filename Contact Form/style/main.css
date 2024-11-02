@@ -1,0 +1,55 @@
+@import url(../style/interactivity.css);
+@import url(../style/responsiveness.css);
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bg-color-aqua: #e4f4e4;
+    --color-green: #1D7262ff;
+    --color-dark: #233739ff;
+    --color-gray: #949c9b;
+}
+
+body {
+    background-color: var(--bg-color-aqua);
+    font-family: "Karla", sans-serif;
+}
+
+h1 {
+    font-size: 2rem;
+    color: var(--color-dark);
+}
+
+label {
+    font-size: 0.9rem;
+    color: var(--color-gray);
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+sup {
+    color: var(--color-green);
+    font-size: 0.8rem;
+}
+
+input,textarea {
+    border: 2px solid var(--color-gray);
+    border-radius: 6px;
+    height: 40px;
+    width: 325px;
+    padding-left: 18px;
+    resize: none;
+}
+
+input:hover,textarea:hover {
+    border-color: var(--color-green);
+}
+
+input[type="text"]:focus,input[type="email"]:focus,textarea:focus {
+    outline: var(--color-green);
+}

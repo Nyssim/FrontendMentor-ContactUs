@@ -1,0 +1,30 @@
+@media (max-width: 1800px) {
+    #card {
+        height: 95dvh;
+        width: 75dvw;
+        padding: 25px;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 1800px) {
+
+    #card {
+        height: 97dvh;
+    }
+
+    #first_name, #last_name {
+        width: 100%;
+    }
+
+    .radio_fields {
+        width: 100%;
+    }
+
+    #names {
+        flex-direction: column;
+    }
+
+    #radios {
+        flex-direction: column;
+    }
+}
